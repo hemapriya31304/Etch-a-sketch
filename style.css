@@ -1,0 +1,23 @@
+#h {
+    text-align: center;
+}
+.container {
+    margin: auto;
+    border: 10px solid black;
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-grow: 1;
+    background-color: blueviolet;
+    border: 2px solid black;
+
+}
+.square {
+    flex-grow: 1;
+    border: 2px solid black;
+}
